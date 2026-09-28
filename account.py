@@ -30,7 +30,3 @@ def account_details():
             return
 
     print("Account not found")
-
-
-create_account()
-account_details()
