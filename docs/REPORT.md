@@ -82,3 +82,65 @@ Planned Enhancements:
 Add persistent storage using an SQLite database or local JSON/CSV file handling.  
 Implement an inter-account transfer function to allow balance transfers between two users.  
 Replace the command-line interface with a desktop Graphical User Interface (GUI) using Tkinter
+
+
+
+
+Project Presentation Report: Working Demonstration of Simple Banking System
+Project Name: Simple-Banking-system
+Main Execution Script: user_interface.py
+Environment: Command Prompt/Terminal
+Language: Python 3
+1. Program Execution & Entry Point
+2.  Navigated to the project directory simple-banking-system inside the terminal.
+  Executed the main user interface file directly using the command:
+   python user_interface.py
+
+Upon pressing Enter, the system instantly initialized and rendered the main command-line interface menu.
+2. Main Menu Options
+The application loaded the following operational choices:
+ Create Account: Registers a new user with personal details and a security PIN.
+ Account Details: Displays basic information of an existing registered account.
+ Check Balance: Verifies the active available balance.
+Deposit Money: Credits funds into a specified account.
+  Withdraw Money: Debits funds from the account after PIN authentication.
+  Exit: Safely terminates the running application.
+3. Step-by-Step Live Demonstration
+Step A: Account Creation (Choice 1)
+  Action Taken: Selected Option 1 from the main menu.
+  Input Provided:
+   * Enter your name: rajkumar
+   * Set your PIN: 1234
+  Internal Logic:
+     The program verified that the name string was non-empty.
+    Validated that the PIN is strictly a 4-digit numeric string.
+     Auto-assigned the initial sequential account number using the formula 1001 + len(accounts).
+  System Output Received:
+   Account created successfully!
+Your account number is: 1001
+```[span_32](start_span)[span_32](end_span)
+
+
+Step B: Continuous Menu Loop & Record Retrieval (Choice 2)
+  Loop Continuity: Instead of terminating, the program maintained its while True loop and re-displayed the main menu cleanly.
+ Action Taken: Selected Option 2 (Account Details).
+  Input Provided:
+ Enter account number: 1001
+  Internal Logic:
+    The helper function find_account(1001) searched the in-memory customer list and returned the matching dictionary record.
+  System Output Received:
+   Account Details
+Name: rajkumar
+Account Number: 1001
+Balance: 0
+  [span_41](start_span)[span_41](end_span)
+
+  Security & Verification: The system successfully retrieved the customer's name, assigned account number, and default opening balance (0), while keeping the security PIN hidden from display.
+4. Presentation Summary of the Output
+  Executing python user_interface.py serves as the primary controller for the application.
+  Account creation and record searching completed with zero runtime exceptions.
+  The terminal workflow proves that user inputs are processed, verified, and displayed in real-time as intended.
+
+here is the scree<img width="812" height="260" alt="github project working proof" src="https://github.com/user-attachments/assets/8d0d1244-244f-4ac6-a748-4df28cb1cae8" />
+<img width="687" height="737" alt="project full" src="https://github.com/user-attachments/assets/7dfa22a6-dcd2-4c13-ba66-df39d747b9c7" />
+nshot/proof of the model working in the command prompt/terminal
