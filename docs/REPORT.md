@@ -1,3 +1,5 @@
+<img width="687" height="737" alt="project full" src="https://github.com/user-attachments/assets/bee4b915-c92b-447f-be27-d6d3875019e5" />
+<img width="812" height="260" alt="github project working proof" src="https://github.com/user-attachments/assets/fd33a589-f237-4607-9e97-2e74caace804" />
 Project Report: Simple Banking System in Python
 Project Title: Console-Based Banking Management System
 Developed By: [Rajkumar Namdev REGI: 26MIP10005]
