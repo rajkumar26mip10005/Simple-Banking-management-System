@@ -16,6 +16,6 @@ Requirements
 - Built using standard Python modules (random); no external libraries needed.
 
 Run 
-1. Download or copy `account.py`.
+1. Download or copy (account.py, banking.py, user_interface.py)
 2. Open terminal in the directory.
-3. Run command: `user_interface.py`
+3. Run command: python main.py
